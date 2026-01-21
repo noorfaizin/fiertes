@@ -462,6 +462,29 @@
         </div>
     </div>
 </div>
+<script>
+document.querySelectorAll('[data-open]').forEach(btn => {
+  btn.addEventListener('click', function () {
+    const modalId = this.getAttribute('data-open');
+    const modal = document.getElementById(modalId);
+    if (modal) modal.classList.add('active');
+  });
+});
+
+document.querySelectorAll('[data-close]').forEach(btn => {
+  btn.addEventListener('click', function () {
+    this.closest('.modal').classList.remove('active');
+  });
+});
+
+document.querySelectorAll('.modal').forEach(modal => {
+  modal.addEventListener('click', function (e) {
+    if (e.target === this) {
+      this.classList.remove('active');
+    }
+  });
+});
+</script>
 
 <!-- Start footer section -->
 <footer class="footer__section bg__black color-scheme-2">
