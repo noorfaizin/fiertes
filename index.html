@@ -1,115 +1,314 @@
-<main class="main__content_wrapper">
-    <!-- VIDEOS -->
-    <div class="me-videos">
-        <section class="video-section">
-            <video autoplay muted loop playsinline class="video-bg">
-                <source src="assets/video/test.mp4" type="video/mp4">
-            </video>
-        </section>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fierte's Perfume</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/img/logo/logo-white.png">
+        
+    <!-- ======= All CSS Plugins here ======== -->
+    <link rel="stylesheet" href="../assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/plugins/glightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Plugin css -->
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+
+    <!-- Fontawesome Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+
+    <!-- Custom Style CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/custom-navbar.css">
+    <link rel="stylesheet" href="../assets/css/extends.css">
+    <link rel="stylesheet" href="../assets/css/infinite-marquee.css">
+
+</head>
+
+</body>
+
+ <!-- Start preloader -->
+<div id="preloader">
+    <div id="ctn-preloader" class="ctn-preloader">
+        <div class="animation-preloader">
+            <div class="spinner"></div>
+            <div class="txt-loading">
+                <span data-text-preloader="F" class="letters-loading">
+                    F
+                </span>
+                <span data-text-preloader="i" class="letters-loading">
+                    i
+                </span>
+                <span data-text-preloader="e" class="letters-loading">
+                    e
+                </span>
+                <span data-text-preloader="r" class="letters-loading">
+                    r
+                </span>
+                <span data-text-preloader="t" class="letters-loading">
+                    t
+                </span>
+                <span data-text-preloader="e" class="letters-loading">
+                    e
+                </span>
+                <span data-text-preloader="'" class="letters-loading">
+                    '
+                </span>
+                <span data-text-preloader="s" class="letters-loading">
+                    s
+                </span>
+            </div>
+        </div>	
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+</div>
+
+<!-- Start header area -->
+<header class="header__section color-scheme-2">
+    <!-- TOPBAR MARQUEE -->
+    <div class="marquee">
+        <div class="marquee__track">
+            <div class="marquee__content">
+                <img src="../assets/img/logo/text-white.png" style="height:20px;">
+                <span class="bullet">•</span>
+                <span>Let the Senses Lead</span>
+                <span class="bullet">•</span>
+                <span>Ⓒ 2026. All rights reserved</span>
+                <span class="bullet">•</span>
+            </div>
+        </div>
     </div>
 
-    <!-- SLIDER BANNER -->
-    <section class="hero__slider--section color-scheme-2">
-        <div class="container-fluid p-3 p-sm-5">
-            <div class="hero__slider--inner hero__slider--activation swiper">
-                <div class="hero__slider--wrapper swiper-wrapper">
-    
-                    <div class="swiper-slide">
-                        <div class="hero__slider--items home2__slider--bg" style="background: url('https://noorfaizin.github.io/fiertes/assets/img/slider/home2-slider1.png');
-                            background-repeat: no-repeat;
-                            background-attachment: scroll;
-                            background-position: center center;
-                            background-size: cover;">
-                            <div class="container-fluid" style="background: linear-gradient(0deg, rgba(255,255,255, .1));">
-                                <div class="hero__slider--items__inner hero__slider--bg2__inner">
-                                    <div class="slider__content">
-                                        <p class="slider__content--desc desc1 text__secondary2 mb-15"> First Slider</p> 
-                                        <h2 class="slider__content--maintitle h1">New Collection <br>
-                                            Summer Sale</h2>
-                                        <p class="slider__content--desc desc2 d-sm-2-none mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna</p>    
-                                        <a class="bg__secondary2 slider__btn primary__btn" href="#!">
-                                            Show Collection <i class="fas fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="hero__slider--items home2__slider--bg" style="background: url(<?= base_url("assets/img/slider/home2-slider2.png")?>);
-                            background-repeat: no-repeat;
-                            background-attachment: scroll;
-                            background-position: center center;
-                            background-size: cover;">
-                            <div class="container-fluid">
-                                <div class="hero__slider--items__inner hero__slider--bg2__inner">
-                                    <div class="slider__content">
-                                        <p class="slider__content--desc desc1 text__secondary2 mb-15"> Second Slider</p> 
-                                        <h2 class="slider__content--maintitle h1">New Collection <br>
-                                            Summer Sale</h2>
-                                        <p class="slider__content--desc desc2 d-sm-2-none mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna</p>    
-                                        <a class="bg__secondary2 slider__btn primary__btn" href="#!">
-                                            Show Collection <i class="fas fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="swiper-slide">
-                        <div class="hero__slider--items home2__slider--bg" style="background: url(<?= base_url("assets/img/slider/home2-slider3.png")?>);
-                            background-repeat: no-repeat;
-                            background-attachment: scroll;
-                            background-position: center center;
-                            background-size: cover;">
-                            <div class="container-fluid">
-                                <div class="hero__slider--items__inner hero__slider--bg2__inner">
-                                    <div class="slider__content">
-                                        <p class="slider__content--desc desc1 text__secondary2 mb-15"> Third Slider</p> 
-                                        <h2 class="slider__content--maintitle h1">New Collection <br>
-                                            Summer Sale</h2>
-                                        <p class="slider__content--desc desc2 d-sm-2-none mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna</p>    
-                                        <a class="bg__secondary2 slider__btn primary__btn" href="#!">
-                                            Show Collection <i class="fas fa-arrow-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                </div>
-                <div class="swiper__nav--btn swiper-button-next"></div>
-                <div class="swiper__nav--btn swiper-button-prev"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SUBCRIBE TO OUR NEWSLETTER -->
-    <section class="contact__section section--padding color-scheme-2">
+    <!-- NAVBAR -->
+    <div class="main__header header__sticky" style="z-index: 99;">
         <div class="container-fluid">
-            <div class="section__heading text-center mb-50">
-                <h2 class="section__heading--maintitle style2">Newsletter</h2>
-            </div>
-            <div class="contact__section--inner">
-                <h3 class="shop__card--content__subtitle text-center">SUBCRIBE TO OUR NEWSLETTER</h3>
-                <div class="col-md-6 mx-auto newsletter__subscribe">
-                    <form class="newsletter__subscribe--form" action="#">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <input class="newsletter__subscribe--input" placeholder="Email Address" type="email">
+            <div class="main__header--inner position__relative d-flex justify-content-between align-items-center">
+                <div class="offcanvas__header--menu__open ">
+                    <a class="offcanvas__header--menu__open--btn" href="javascript:void(0)" data-offcanvas>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon offcanvas__header--menu__open--svg" viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
+                        <span class="visually-hidden">Menu Open</span>
+                    </a>
+                </div>
+                <div class="main__logo">
+                    <h1 class="main__logo--title d-flex d-sm-none"><a class="main__logo--link text-dark" href="#">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="logo-rotate">
+                                <img src="../assets/img/logo/logo-black.png" alt="Logo">
                             </div>
-                            <div class="col-md-5">
-                                <button class="newsletter__subscribe--button mt-0" type="submit">Register</button>
-                            </div>
+                            <img class="main__logo--img" src="../assets/img/logo/text-black.png" style="height:25px;">
                         </div>
-                    </form>   
-                </div> 
+                    </a></h1>
+                </div>
+                <div class="header__menu d-none d-lg-block">
+                    <nav class="header__menu--navigation text-center">
+                        <div class="d-flex align-items-center justify-content-center mb-4">
+                            <div class="logo-rotate">
+                                <img src="../assets/img/logo/logo-black.png" alt="Logo">
+                            </div>
+                            <img src="../assets/img/logo/text-black.png" style="height: 30px;">
+                        </div>
+                        <ul class="d-flex">
+                            <li class="header__menu--items">
+                                <a class="header__menu--link text-dark
+                                <?= $this->uri->segment(1) == 'home' || $this->uri->segment(1) == '' ? 'nav-menu-active' : '' ?>"
+                                href="index.html">Home </a>  
+                            </li>
+                            <li class="header__menu--items">
+                                <a class="header__menu--link text-dark
+                                <?= $this->uri->segment(1) == 'about-us' || $this->uri->segment(1) == 'newsletter' ? 'nav-menu-active' : '' ?>"
+                                href="about-us.html">About Us </a>  
+                            </li>
+                            <li class="header__menu--items">
+                                <a class="header__menu--link text-dark
+                                <?= $this->uri->segment(1) == 'our-fragrances' || $this->uri->segment(1) == 'find-fragrances' ? 'nav-menu-active' : '' ?>"
+                                href="our-fragrances.html">Our Fragrances </a>  
+                            </li>
+                            <li class="header__menu--items">
+                                <a class="header__menu--link text-dark
+                                <?= $this->uri->segment(1) == 'shop' || $this->uri->segment(1) == 'product-detail' ? 'nav-menu-active' : '' ?>"
+                                href="shop.html">Shop Here </a>  
+                            </li>
+                            <li class="header__menu--items">
+                                <a class="header__menu--link text-dark
+                                <?= $this->uri->segment(1) == 'find-us' ? 'nav-menu-active' : '' ?>"
+                                href="find-us.html">Find Us </a>  
+                            </li>
+                            <li class="header__menu--items">
+                                <a class="header__account--btn search__open--btn" href="javascript:void(0)" data-offcanvas>
+                                    <svg class="header__search--button__svg" xmlns="http://www.w3.org/2000/svg" width="26.51" height="23.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg>  
+                                    <span class="visually-hidden">Search</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__account header__account2">
+                    <ul class="d-flex d-sm-none">
+                        <li class="header__account--items header__account2--items">
+                            <a class="header__account--btn search__open--btn" href="javascript:void(0)" data-offcanvas>
+                                <svg class="header__search--button__svg" xmlns="http://www.w3.org/2000/svg" width="26.51" height="23.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg>  
+                                <span class="visually-hidden">Search</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </section>
-</main>
+    </div>
 
-<?php include APPPATH . 'Views/v_frontend/popup_question.php'; ?>
+    <!-- Start Sidebar menu on mobile views -->
+    <div class="offcanvas__header color-scheme-2">
+        <div class="offcanvas__inner">
+            <div class="offcanvas__logo">
+                <a class="offcanvas__logo_link" href="index.html">
+                    <img src="../assets/img/logo/text-black.png" style="height: 30px;">
+                </a>
+                <button class="offcanvas__close--btn" data-offcanvas>close</button>
+            </div>
+            <nav class="offcanvas__menu">
+                <ul class="offcanvas__menu_ul">
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="index.html">Home</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="about-us.html">About Us</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="our-fragrances.html">Our Fragrances</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="shop.html">Shop Here</a></li>
+                    <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="find-us.html">Find Us</a></li>
+                </ul>
+
+                <!-- Select languages  -->
+                <div class="language__currency mt-5">
+                    <ul class="d-flex align-items-center">
+                        <li class="language__currency--list">
+                            <a class="offcanvas__language--switcher" href="#">
+                                <img class="language__switcher--icon__img" src="../assets/img/icon/lang-en.png" alt="currency" style="width: 20px;">
+                                <span>English</span> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="11.797" height="9.05" viewBox="0 0 9.797 6.05">
+                                    <path  d="M14.646,8.59,10.9,12.329,7.151,8.59,6,9.741l4.9,4.9,4.9-4.9Z" transform="translate(-6 -8.59)" fill="currentColor" opacity="0.7"/>
+                                </svg>
+                            </a>
+                            <div class="offcanvas__dropdown--language">
+                                <ul>
+                                    <li class="language__items"><a class="language__text" href="#">English</a></li>
+                                    <li class="language__items"><a class="language__text" href="#">Indonesia</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Sidebar menu on mobile views -->
+
+    <!-- Start serch box area -->
+    <div class="predictive__search--box color-scheme-2">
+        <div class="predictive__search--box__inner">
+            <h2 class="predictive__search--title">Search Products</h2>
+            <form class="predictive__search--form" action="#">
+                <label>
+                    <input class="predictive__search--input" placeholder="Search Here" type="text">
+                </label>
+                <button class="predictive__search--button"><svg class="header__search--button__svg" xmlns="http://www.w3.org/2000/svg" width="30.51" height="25.443" viewBox="0 0 512 512"><path d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M338.29 338.29L448 448"/></svg>  </button>
+            </form>
+        </div>
+        <button class="predictive__search--close__btn" aria-label="search close button" data-offcanvas>
+            <svg class="predictive__search--close__icon" xmlns="http://www.w3.org/2000/svg" width="40.51" height="30.443"  viewBox="0 0 512 512"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"/></svg>
+        </button>
+    </div>
+    <!-- End serch box area -->
+</header>
+
+
+    <!-- Start footer section -->
+    <footer class="footer__section bg__black color-scheme-2">
+        <div class="container-fluid">
+            <div class="main__footer pb-5">
+                <div class="row">
+                    <div class="col-sm-8 mb-5">
+                        <img class="main__logo--img mb-3" src="../assets/img/logo/text-white.png" style="height:35px;">
+                        <p class="footer__widget--desc text-ofwhite mb-20">Let the Senses Lead</p>
+                    </div>
+                    <div class="col-sm-4 mb-5">
+                        <h2 class="text-ofwhite mb-2">Get in Touch</h2>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="#!">+62 857-2601-7917</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="#!">Fiertemist24@gmail.com</a></li>
+                    </div>
+                </div>
+                <div class="footer__social">
+                    <h3 class="social__title text-ofwhite mb-2">Follow Us</h3>
+                    <ul class="social__shear d-flex">
+                        <li class="social__shear--list">
+                            <a target="_blank" href="#!">
+                                <img src="../assets/img/icon/market/instagram.png" style="width: 30px;">
+                            </a>
+                        </li>
+                        <li class="social__shear--list">
+                            <a target="_blank" href="#!">
+                                <img src="../assets/img/icon/market/tiktok.png" style="width: 30px;">
+                            </a>
+                        </li>
+                        <li class="social__shear--list">
+                            <a target="_blank" href="#!">
+                                <img src="../assets/img/icon/market/shopee.png" style="width: 30px;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom d-flex justify-content-between align-items-center">
+                <p class="copyright__content text-ofwhite m-0">Ⓒ 2026. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Buttoon chat whatsapp  -->
+    <a href="https://wa.me/+6285726017917/" target="_blank" class="btn-wa btn btn-light">
+        <img src="../assets/img/icon/whatsapp.png" style="height: 30px;margin-right: 10px;">Chat with us!
+    </a>
+
+    <!-- Scroll top bar -->
+    <button class="color-scheme-2" id="scroll__top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 244l144-144 144 144M256 120v292"/></svg></button>
+
+    <!-- All Script JS Plugins here  -->
+    <script src="../assets/js/vendor/popper.js" defer="defer"></script>
+    <script src="../assets/js/vendor/bootstrap.min.js" defer="defer"></script>
+    <script src="../assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="../assets/js/plugins/glightbox.min.js"></script>
+
+    <!-- Customscript js -->
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/infinite-marquee.js"></script>
+
+    <script>
+    let lastScrollTop = 0;
+    const navbar = document.querySelector('.main__header');
+
+    window.addEventListener('scroll', function () {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            // scroll down
+            navbar.classList.add('hide');
+            navbar.classList.remove('show');
+        } else {
+            // scroll up
+            navbar.classList.add('show');
+            navbar.classList.remove('hide');
+        }
+
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });
+    </script>
+    
+    </body>
+</html>
