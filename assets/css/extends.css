@@ -1,0 +1,148 @@
+/* PAGE TITLE */
+.container-page-title{
+    padding: 30px 0;
+    text-align: center;
+}
+.container-page-title span{
+    font-family: var(--font-osb);
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* HOME VIDEOS  */
+.me-videos{
+    margin-top: -125px;
+}
+.shop-desc{
+    display: block;
+}
+.shop-m-desc{
+    display: none;
+}
+#img-frag{
+    display: none;
+}
+@media (max-width: 990px) {
+    .me-videos{
+        margin-top: 0;
+    }
+    .shop-desc{
+        display: none;
+    }
+    .shop-m-desc{
+        display: block;
+    }
+    #img-frag{
+        display: inline;
+    }
+}
+.video-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+}
+
+.video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* LOGO ROTATE */
+.logo-rotate img {
+    width: 35px;
+    height: auto;
+    margin-right: 10px;
+    animation: rotateLogo 12s linear infinite;
+}
+
+@media (max-width: 990px) {
+    .logo-rotate img {
+        width: 25px;
+    }
+}
+
+@keyframes rotateLogo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* PAGE SHOP ========================  */
+.tags-style{
+    margin-right: 10px;
+    padding: 7px 10px;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* PAGE ABOUT ========================  */
+.me-fragrances{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+}
+
+.circle-text svg {
+    width: 100%;
+    height: 100%;
+    animation: spin 18s linear infinite;
+}
+
+.circle-text text {
+    font-size: 18.5px;
+    letter-spacing: 2px;
+    fill: #000; /* warna text */
+    text-transform: uppercase;
+}
+
+/* ROTATE */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* BTN CHAT WHATSAPP  */
+.btn-wa{
+    z-index: 999;
+    position: fixed;
+    bottom: 25px;
+    border-radius: 10px;
+    right: 25px;
+    box-shadow: 0px 0px 15px 0px #b6b6b6ff;
+    font-size: 16px;
+    padding-right: 15px;
+}
+.btn-wa:hover{
+    color: #000000;
+    background-color: rgba(255, 255, 255, .8);
+}
+

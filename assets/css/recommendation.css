@@ -1,0 +1,192 @@
+.hidden {
+    display: none !important;
+}
+
+/* #result-quiz{
+    display: none;
+} */
+
+.start-question {
+    animation: fadeIn .5s ease;
+}
+
+#ask-quiz,
+#result-quiz{
+    animation: fadeIn .5s ease;
+}
+
+h1, .subtitle {
+    text-align: center;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    margin-bottom: 12px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+label:hover {
+    background: #e4e4e4;
+    color: black;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label:has(input[type="radio"]:checked) {
+    background: #000;
+    color: white;
+    box-shadow: 0 8px 20px rgba(109, 109, 109, 0.35);
+}
+
+.navigation {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.btn {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.prev {
+    font-weight: bold;
+    background: #fca8a8;
+    color: white;
+}
+.prev:hover {
+    background: #fa5252;
+}
+
+.next {
+    font-weight: bold;
+    background: #99ccf7;
+    color: white;
+}
+.next:hover {
+    background: #339af0;
+}
+
+.submit {
+    font-weight: bold;
+    background: #8fe4cb;
+    color: white;
+    display: none;
+}
+.submit:hover {
+    background: #20c997;
+}
+
+.result {
+    /* margin-top: 40px; */
+    /* padding: 25px; */
+    /* background: #f1f3f5; */
+    /* border-radius: 5px; */
+    text-align: center;
+    display: none;
+}
+
+.result-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* RESET */
+.result-actions .reset {
+    font-weight: bold;
+    background: #fa5252;
+    color: white;
+}
+.result-actions .reset:hover {
+    background: #d84545;
+}
+
+/* SHOP */
+.result-actions .shop {
+    font-weight: bold;
+    background: #20c997;
+    color: white;
+}
+
+.result-actions .shop:hover {
+    background: #12b886;
+}
+
+#recommend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical center */
+    height: 100%;
+}
+
+
+.thank-you {
+    display: none;
+    text-align: center;
+    margin-top: 30px;
+    animation: fadeIn .6s ease;
+}
+
+.thank-you h2 {
+    color: #20c997;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.thank-home {
+    color: #20c997;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+.result img {
+    width: 200px;
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    /* border-radius: 16px; */
+    /* box-shadow: 0 12px 30px rgba(0,0,0,.15); */
+    animation: fadeZoom .6s ease;
+}
+
+@keyframes fadeZoom {
+    from {
+        opacity: 0;
+        transform: scale(.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

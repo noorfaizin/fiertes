@@ -1,0 +1,29 @@
+/* MARQUEE TEXT ON TOP BAR  */
+.marquee {
+    overflow: hidden;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.marquee__track {
+    display: flex;
+    width: max-content;
+    will-change: transform;
+}
+
+.marquee__content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.marquee__content span {
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.marquee__content .bullet {
+    margin: 0 24px;
+}
