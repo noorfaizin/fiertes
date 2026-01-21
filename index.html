@@ -1,0 +1,115 @@
+<main class="main__content_wrapper">
+    <!-- VIDEOS -->
+    <div class="me-videos">
+        <section class="video-section">
+            <video autoplay muted loop playsinline class="video-bg">
+                <source src="assets/video/test.mp4" type="video/mp4">
+            </video>
+        </section>
+    </div>
+
+    <!-- SLIDER BANNER -->
+    <section class="hero__slider--section color-scheme-2">
+        <div class="container-fluid p-3 p-sm-5">
+            <div class="hero__slider--inner hero__slider--activation swiper">
+                <div class="hero__slider--wrapper swiper-wrapper">
+    
+                    <div class="swiper-slide">
+                        <div class="hero__slider--items home2__slider--bg" style="background: url(<?= base_url("assets/img/slider/home2-slider1.png")?>);
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-position: center center;
+                            background-size: cover;">
+                            <div class="container-fluid" style="background: linear-gradient(0deg, rgba(255,255,255, .1));">
+                                <div class="hero__slider--items__inner hero__slider--bg2__inner">
+                                    <div class="slider__content">
+                                        <p class="slider__content--desc desc1 text__secondary2 mb-15"> First Slider</p> 
+                                        <h2 class="slider__content--maintitle h1">New Collection <br>
+                                            Summer Sale</h2>
+                                        <p class="slider__content--desc desc2 d-sm-2-none mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna</p>    
+                                        <a class="bg__secondary2 slider__btn primary__btn" href="#!">
+                                            Show Collection <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="hero__slider--items home2__slider--bg" style="background: url(<?= base_url("assets/img/slider/home2-slider2.png")?>);
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-position: center center;
+                            background-size: cover;">
+                            <div class="container-fluid">
+                                <div class="hero__slider--items__inner hero__slider--bg2__inner">
+                                    <div class="slider__content">
+                                        <p class="slider__content--desc desc1 text__secondary2 mb-15"> Second Slider</p> 
+                                        <h2 class="slider__content--maintitle h1">New Collection <br>
+                                            Summer Sale</h2>
+                                        <p class="slider__content--desc desc2 d-sm-2-none mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna</p>    
+                                        <a class="bg__secondary2 slider__btn primary__btn" href="#!">
+                                            Show Collection <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="hero__slider--items home2__slider--bg" style="background: url(<?= base_url("assets/img/slider/home2-slider3.png")?>);
+                            background-repeat: no-repeat;
+                            background-attachment: scroll;
+                            background-position: center center;
+                            background-size: cover;">
+                            <div class="container-fluid">
+                                <div class="hero__slider--items__inner hero__slider--bg2__inner">
+                                    <div class="slider__content">
+                                        <p class="slider__content--desc desc1 text__secondary2 mb-15"> Third Slider</p> 
+                                        <h2 class="slider__content--maintitle h1">New Collection <br>
+                                            Summer Sale</h2>
+                                        <p class="slider__content--desc desc2 d-sm-2-none mb-40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna</p>    
+                                        <a class="bg__secondary2 slider__btn primary__btn" href="#!">
+                                            Show Collection <i class="fas fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="swiper__nav--btn swiper-button-next"></div>
+                <div class="swiper__nav--btn swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUBCRIBE TO OUR NEWSLETTER -->
+    <section class="contact__section section--padding color-scheme-2">
+        <div class="container-fluid">
+            <div class="section__heading text-center mb-50">
+                <h2 class="section__heading--maintitle style2">Newsletter</h2>
+            </div>
+            <div class="contact__section--inner">
+                <h3 class="shop__card--content__subtitle text-center">SUBCRIBE TO OUR NEWSLETTER</h3>
+                <div class="col-md-6 mx-auto newsletter__subscribe">
+                    <form class="newsletter__subscribe--form" action="#">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <input class="newsletter__subscribe--input" placeholder="Email Address" type="email">
+                            </div>
+                            <div class="col-md-5">
+                                <button class="newsletter__subscribe--button mt-0" type="submit">Register</button>
+                            </div>
+                        </div>
+                    </form>   
+                </div> 
+            </div>
+        </div>
+    </section>
+</main>
+
+<?php include APPPATH . 'Views/v_frontend/popup_question.php'; ?>
